@@ -1,6 +1,8 @@
 # ksubscribe-example-usage
 ksubscribe-example-usage
-
+<br/><br/>:computer:<br/>
+You can install the ksubscribe library from [here](https://pypi.org/project/ksubscribe/)
+<br/><br/>
 ## Example code 
 Usage : python main.py
 <br/><br/>
