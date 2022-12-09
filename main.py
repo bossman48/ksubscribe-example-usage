@@ -23,7 +23,7 @@ while(True):
         slaveObject.eventTwoSecond()
     if(i%5 == 0):
         slaveObject.eventFiveSecond()
-    time.sleep(2)
+    time.sleep(1)
     i=i+1
 
 
