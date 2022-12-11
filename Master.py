@@ -13,8 +13,8 @@ class Master():
     def subscribeFiveSecondEvent(self):
         self.masterEventObject._subscribeForAnEvent(subscriber=self,eventName="everyFiveSecond")
 
-    def _inform(self,eventName):
-        print("From ",id(self)," _inform function",eventName)
-
-    def _informWithParameter(self,eventName,parameters):
-        print("From ",id(self)," _informWithParameter function",eventName,"  ",parameters)
+    def inform(self,eventName,parameters=None):
+        if(parameters==None):
+            print("From ",id(self)," inform function",eventName)
+        else:
+            print("From ",id(self)," inform function",eventName, " with this parameters : ",parameters)

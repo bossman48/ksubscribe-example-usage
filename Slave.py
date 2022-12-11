@@ -15,10 +15,10 @@ class Slave():
 
 
     def eventTwoSecond(self):
-        self.slaveEventObject._fireAnEvent(eventName="everyTwoSecond")
+        self.slaveEventObject._publish(eventName="everyTwoSecond")
 
     def eventFiveSecond(self):
-        self.slaveEventObject._fireAnEventWithParameters(eventName="everyFiveSecond",parameters=["ksubscribe","for","Python","Coders"])
+        self.slaveEventObject._publish(eventName="everyFiveSecond",parameters=["ksubscribe","for","Python","Coders"])
         
 
         

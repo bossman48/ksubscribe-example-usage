@@ -15,11 +15,8 @@ One of this event is everyTwoSecond, that is fired every two second and do not t
 The other event is everyFiveSecond, that is fired every five second and take parameter.<br/><br/>
 :raising_hand: <br/><br/>:exclamation: 
 
-#### For not taking any parameters event, subscribers must have _**_inform(eventName:str)**_ functions. 
+#### For not taking any parameters event, subscribers must have _**inform(eventName:str,parameters=None)**_ functions. 
 
-<br/><br/>:exclamation:
-
-#### For taking parameters event, subscribers must have _**_inform(eventName:str,parameters)**_ functions. You can send only one parameter, that can be string, int, list, dict etc.
 
 <br/><br/>
 You can easily understand basic usage of the library from this repository.
